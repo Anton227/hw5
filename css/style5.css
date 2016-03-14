@@ -1,0 +1,140 @@
+
+/*шрифт*/
+@font-face {
+	font-family: 'Helvetica Neue Regular';
+	src: url('../fonts/helveticaneue-thin-webfont.eot');
+	src: url('../fonts/helveticaneue-thin-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/helveticaneue-thin-webfont.woff2') format('woff2'),
+	url('../fonts/helveticaneue-thin-webfont.woff') format('woff'),
+	url('../fonts/helveticaneue-thin-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+body{
+	font-family: "Helvetica Neue Regular";
+	background: lightgrey;
+}
+
+/*верхнее меню*/
+.header {
+	margin: 0 auto;
+	width: 1215px;
+	height: 35px;
+	background: #074b87;
+}
+.menu a{
+	display:block;
+	float: right;
+	color: #4ea1da;
+	text-decoration: none;
+	line-height: 35px;
+	padding: 0 10px;
+	background: #074b87;
+}
+.menu a:hover{
+	background: #4eabda;
+	color: white;
+}
+
+/*центральное фото */
+.background{
+	margin: 0 auto;
+	width: 1215px;
+	background-image: url(../img/background.png);
+	padding:210px 0;
+}
+
+/*центральное меню текст*/
+.forma{
+	margin: 0 auto;
+	width: 560px;
+	height: 615px;
+	background: rgba(59,62,49,0.7);
+}
+.forma-top {
+	color: white;
+	font-size: 22px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 65px;
+	border-bottom: 2px solid white;
+}
+
+/*центрально меню вход череж ФБ*/
+.forma-centre{
+	width: 275px;
+	margin: 0 auto;
+}
+button{
+	line-height: 35px;
+	border-radius: 5px;
+	background: #334b87;
+	color: white;
+	width: 100%;
+	font-weight: bold;
+	margin: 35px auto 30px;
+	font-size: 15px;
+	border: none;
+}
+button .f{
+	float: left;
+	width: 35px;
+	font-size: 25px;
+	text-align: center;
+	border-right: 1px solid #1f3d73;
+}
+.ou p{
+	position: relative;
+	color: lightgrey;
+	text-align: center;
+	font-size: 15px;
+	padding: 0 0;
+	margin-bottom: 10px; 
+	z-index: 5;
+}
+.ou p:before {
+	content: "";
+	display: block;
+	border-top: solid 1px lightgrey;
+	width: 100%;
+	margin: 0 auto;
+	height: 1px;
+	position: absolute;
+	top: 50%;
+	z-index: 1;
+}
+
+/*центральое меню регистрация*/ 
+.registration input{
+	background:black;
+	color:white;
+	line-height: 36px;
+	width: 100%;
+	border: none;
+	margin: 15px auto 0;
+}
+.registration input:hover{
+	background: #1b5288;
+	box-shadow: 0 0 15px #c8d7e0;
+}
+.checkbox{
+	color: white;
+	margin-top: 20px;
+}
+.account {
+	width: 155px;
+	margin: 0 auto;
+}
+.account button{
+	background: #47a1d5;
+	margin:20px 0 20px;
+}
+
+/*футер*/
+p{
+	color: white;
+	font-size: 11px;
+	text-align: center;
+	line-height: 15px;
+}
