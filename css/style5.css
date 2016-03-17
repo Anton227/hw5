@@ -32,9 +32,24 @@ body{
 	padding: 0 10px;
 	background: #074b87;
 }
+.menu img{
+	display: block;
+	width: 20px;
+	float: right;
+	margin-top: 5px;
+	padding-left: 10px;
+	border-left: 1px solid #4ea1da;
+}
+.menu_last{
+	float: right;
+	background: #074b87;
+	width: 20px;
+	height: 35px;
+}
 .menu a:hover{
 	background: #4eabda;
 	color: white;
+
 }
 
 /*центральное фото */
@@ -46,20 +61,29 @@ body{
 }
 
 /*центральное меню текст*/
-.forma{
+.forma1{
 	margin: 0 auto;
 	width: 560px;
-	height: 615px;
+	height: 65px;
+	background: rgba(59,62,49,0.7);
+	margin-bottom: 2px;
+}
+.forma2{
+	margin: 0 auto;
+	width: 560px;
+	height: 550px;
 	background: rgba(59,62,49,0.7);
 }
+
+
 .forma-top {
 	color: white;
 	font-size: 22px;
 	font-weight: bold;
 	text-align: center;
 	line-height: 65px;
-	border-bottom: 2px solid white;
 }
+
 
 /*центрально меню вход череж ФБ*/
 .forma-centre{
@@ -68,8 +92,9 @@ body{
 }
 button{
 	line-height: 35px;
+	padding:0;
 	border-radius: 5px;
-	background: #334b87;
+	background: #314780;
 	color: white;
 	width: 100%;
 	font-weight: bold;
@@ -77,64 +102,76 @@ button{
 	font-size: 15px;
 	border: none;
 }
-button .f{
+
+button img{
 	float: left;
-	width: 35px;
-	font-size: 25px;
-	text-align: center;
-	border-right: 1px solid #1f3d73;
+	height: 35px;
+	border-radius: 5px;
 }
 .ou p{
 	position: relative;
-	color: lightgrey;
 	text-align: center;
+	color: white;
 	font-size: 15px;
 	padding: 0 0;
 	margin-bottom: 10px; 
-	z-index: 5;
+
 }
 .ou p:before {
 	content: "";
 	display: block;
 	border-top: solid 1px lightgrey;
-	width: 100%;
-	margin: 0 auto;
-	height: 1px;
+	width: 43%;
+	margin: 0 0%;
 	position: absolute;
 	top: 50%;
-	z-index: 1;
+}
+.ou p:after {
+	content: "";
+	display: block;
+	border-top: solid 1px lightgrey;
+	width: 43%;
+	margin: 0 57%;
+	position: absolute;
+	top: 50%;
 }
 
 /*центральое меню регистрация*/ 
 .registration input{
 	background:black;
-	color:white;
+	text-indent: 20px;
 	line-height: 36px;
 	width: 100%;
 	border: none;
 	margin: 15px auto 0;
 }
-.registration input:hover{
-	background: #1b5288;
-	box-shadow: 0 0 15px #c8d7e0;
-}
-.checkbox{
+/*.registration input::-webkit-input-placeholder {
 	color: white;
-	margin-top: 20px;
-}
-.account {
-	width: 155px;
-	margin: 0 auto;
-}
-.account button{
-	background: #47a1d5;
-	margin:20px 0 20px;
-}
+	}*/
 
-/*футер*/
-p{
-	color: white;
-	font-size: 11px;
-	text-align: center;
-	line-height: 15px;
-}
+	.registration input:hover{
+		background: #1b5288;
+		text-indent: 15px;
+		box-shadow: 0 0 15px #c8d7e0;
+	}
+
+	.checkbox{
+		color: white;
+		margin-top: 20px;
+	}
+	.account {
+		width: 155px;
+		margin: 0 auto;
+	}
+	.account button{
+		background: #47a1d5;
+		margin:20px 0 20px;
+	}
+
+	/*футер*/
+	.footer {
+		color: white;
+		font-size: 11px;
+		text-align: center;
+		line-height: 15px;
+	}
